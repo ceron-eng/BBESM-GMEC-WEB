@@ -1,59 +1,90 @@
-# BBESMGMECWEB
+## [Devias Kit - React](https://material-kit-react.devias.io/)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.4.
+![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-## Development server
+[![Devias Kit - React](https://github.com/devias-io/material-kit-react/blob/main/public/assets/thumbnail.png)](https://material-kit-react.devias.io/)
 
-To start a local development server, run:
+> Free React Admin Dashboard made with [MUI's](https://mui.com) components, [React](https://reactjs.org) and of course [Next.js](https://github.com/vercel/next.js) to boost your app development process!
 
-```bash
-ng serve
+## Pages 
+
+- [Dashboard](https://material-kit-react.devias.io)
+- [Customers](https://material-kit-react.devias.io/dashboard/customers)
+- [Integrations](https://material-kit-react.devias.io/dashboard/integrations)
+- [Settings](https://material-kit-react.devias.io/dashboard/settings)
+- [Account](https://material-kit-react.devias.io/dashboard/account)
+- [Sign In](https://material-kit-react.devias.io/auth/sign-in)
+- [Sign Up](https://material-kit-react.devias.io/auth/sign-up)
+- [Reset Password](https://material-kit-react.devias.io/auth/reset-password)
+
+## Free Figma Community File
+
+- [Duplicate File](https://www.figma.com/file/b3L1Np4RYiicZAOMopHNkm/Devias-Dashboard-Design-Library-Kit)
+
+## Upgrade to PRO Version
+
+We also have a pro version of this product which bundles even more pages and components if you want
+to save more time and design efforts :)
+
+| Free Version (this one)  | [Devias Kit Pro](https://mui.com/store/items/devias-kit-pro/)                |
+| ------------------------ | :--------------------------------------------------------------------------- |
+| **8** Pages              | **80+** Pages                                                                |
+| ✔ Custom Authentication  | ✔ Authentication with **Amplify**, **Auth0**, **Firebase** and **Supabase**  |
+| -                        | ✔ Vite Version                                                               |
+| -                        | ✔ Dark Mode Support                                                          |
+| -                        | ✔ Complete Users Flows                                                       |
+| -                        | ✔ Premium Technical Support                                                  |
+
+## Quick start
+
+- Clone the repo: `git clone https://github.com/devias-io/material-kit-react.git`
+- Make sure your Node.js and npm versions are up to date
+- Install dependencies: `npm install` or `yarn`
+- Start the server: `npm run dev` or `yarn dev`
+- Open browser: `http://localhost:3000`
+
+## File Structure
+
+Within the download you'll find the following directories and files:
+
+```
+┌── .editorconfig
+├── .eslintrc.js
+├── .gitignore
+├── CHANGELOG.md
+├── LICENSE.md
+├── next-env.d.ts
+├── next.config.js
+├── package.json
+├── README.md
+├── tsconfig.json
+├── public
+└── src
+	├── components
+	├── contexts
+	├── hooks
+	├── lib
+	├── styles
+	├── types
+	└── app
+		├── layout.tsx
+		├── page.tsx
+		├── auth
+		└── dashboard
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Resources
 
-## Code scaffolding
+- More freebies like this one: https://devias.io
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Reporting Issues:
 
-```bash
-ng generate component component-name
-```
+- [Github Issues Page](https://github.com/devias-io/material-kit-react/issues)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## License
 
-```bash
-ng generate --help
-```
+- Licensed under [MIT](https://github.com/devias-io/material-kit-react/blob/main/LICENSE.md)
 
-## Building
+## Contact Us
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Email Us: support@deviasio.zendesk.com
